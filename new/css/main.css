@@ -1,0 +1,447 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    color: #fff;
+}
+
+a{
+    color:inherit
+}
+
+.container{
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.intro {
+    height: 100vh;
+    background-image: url(/img/andrew-coelho-aL7SA1ASVdQ-unsplash\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header{
+    padding-top: 25px;
+    margin-bottom: 10%;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav__menu{
+    display: flex;
+
+}
+
+.header-nav__menu-link{
+    margin-left: 50px; 
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all .3s;
+}
+.header-nav__menu-link:hover{
+    opacity: .7;
+    border-bottom: 2px solid #fff;
+}
+
+.intro-bottom{
+    text-align: center;
+}
+
+.intro-bottom__title{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 116px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 950px;
+    margin: 0 auto 40px;
+}
+
+.intro-bottom__subtitle{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+.intro-bottom__link{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.intro-bottom__link span{
+    display: block;
+    margin-bottom: 20px;
+}
+ 
+.about{
+    padding: 140px 0;
+}
+
+.about__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item{
+    margin-bottom: 140px;
+}
+.about__item:last-child{
+    margin-bottom: 0;
+}
+
+.about__info{
+    color: #343A40;
+    max-width: 460px;
+}
+.about__info-title{
+    font-size: 50px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+.about__info-descr{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.05em;
+    margin-bottom: 60px;
+}
+
+.about__info-descr span{
+    font-weight: 700;
+}
+.about__info-descr a{
+    color: #007BFF;
+}
+.about__info-button{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+    text-decoration: none;
+    background: #28A745;
+    box-shadow: 0px 5px 30px rgba(40, 167, 69, 0.4);
+    border-radius: 100px;
+    padding: 15px 60px;
+}
+.about__item-img{
+    width: 49%;
+}
+
+.footer{
+    background-image: url(../img/foot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 60px 0 130px;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__info{
+    width: 166px;
+}
+.footer__info-img{
+    margin-bottom: 15px;
+}
+.footer__info-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer__menu-title{
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 24px;
+}
+.footer__list-link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 190%;
+    text-decoration: none;
+}
+
+.header_reg{
+    background-image: url(/img/reg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 25px;
+}
+/* reg page */
+
+.title{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 130%;
+    text-align: center;
+    color: #343A40;
+    margin-bottom: 60px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+.aside__title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color: #343A40;
+    margin-bottom: 26px;
+}
+.aside__list-link{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #007BFF;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    display: block;
+    border-bottom: 2px solid rgba(156, 156, 156, 0.2);
+    text-decoration: none;
+}
+.reg{
+    max-width: 755px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 60px 100px;
+    color: #343A40;
+}
+.reg__form-title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+.reg__form-descr{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+.reg__form-text{
+    padding: 17px 25px;
+    display: flex;
+    background:#EBEBEB;
+    border: 2px solid #9C9C9C;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+}
+.top__input {
+    height: 60px;
+    max-width: 560px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.reg__form-wrapper{
+    display: flex;
+}
+.reg__form-wrapper_text{
+    margin-bottom: 40px;
+}
+.bot__input{
+    width: 265px;
+}
+.bot__input:first-child{
+    margin-right: 30px;
+}
+
+.reg__form-wrapper_radio{
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #343A40;
+}
+.reg__form-radio,
+.reg__form-checkbox{
+    margin-right: 20px;
+}
+.reg__form-button{
+    display: inline-block; 
+    font-weight: 700;
+    margin-top: 60px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 15px 53px;
+    background: #28A745;
+    box-shadow: 0px 5px 30px rgba(40, 167, 69, 0.4);
+    border-radius: 100px;
+    text-decoration: none;
+}
+.reg__form-button span{
+    margin: 15px 50px;
+    text-align: center;
+}
+
+@media(max-width:950px){
+    .about__wrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about__info{
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .about__item-img{
+        margin: 0 auto;
+    }
+    .about__item-img_2{
+        order: 1;
+    }
+    .about__info_2{
+        order:0
+    }
+    .footer__wrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__info{
+        margin-bottom: 40px; 
+    }
+    .footer__list{
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .footer__menu-title{
+        text-align: center;
+    }
+    .footer__menu-item{
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aside{
+        order:1
+    }
+    .reg{
+        order:0
+    }
+
+}
+@media(max-width:800px){
+    .main{
+        margin-bottom: 80px;
+    }
+    .reg{
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+    .reg__form-wrapper{
+        display: block;
+    }
+    .top__input{
+        width: 265px;
+        height: 53px;
+    }
+    .bot__input:first-child{
+        margin-bottom: 20px;
+    }
+    .reg__form-button span{
+        margin: 15px 25px;
+    }
+
+}
+@media(max-width:670px){
+    .header__wrapper{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .header__logo{
+        margin-bottom: 25px;
+    }
+    .header-nav__menu{
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-nav__menu-link{
+        margin-left: 0;
+    }
+    .header-nav__menu-item{
+        margin-bottom: 30px;
+    }
+    .intro-bottom__title {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .intro-bottom__subtitle {
+        font-size: 24px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .reg{   
+        max-width: 400px;
+    }
+    .reg__form-title{
+        font-size: 20px;
+    }
+    .reg__form-descr{
+        font-size: 20px;
+    }
+    .reg__form-text{
+        max-width: 200px;
+    }
+    .reg__form-wrapper label{
+        font-size: 12px;
+    }
+    .reg__form-button{
+        margin-top: 30px;
+    }
+}
+@media(max-width:440px){
+    .about__item-img{
+        width: 65%;
+    }
+    .about{
+        padding: 60px 0;
+    }
+    .about__info-title{
+        font-size: 30px;
+    }
+    .about__info-descr{
+        font-size: 17px;
+    }
+    .about__info-button{
+        font-size: 22px;
+    }
+    .about__item{
+        margin-bottom: 60px;
+    }
+    .footer__list-item{
+        margin-bottom: 15px;
+    }
+}
